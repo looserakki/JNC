@@ -1,18 +1,18 @@
 {
-      "name": "JNC",
+      "name": "YoneRobot",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "jnc"
+         "yone"
       ],   
-   "repository": "https://telegra.ph/file/379bb1c39e71f9e612c70.mp4",
+   "repository": "https://t.me/itsMeLegend",
    "addons": [
       {
          "options": {
-            "version": "1.0"
+            "version": "12"
          },
          "plan": "heroku-postgresql"
       }
@@ -61,7 +61,7 @@
          "value": ""
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyBotSupport If this ever points to QUEEN JNC SUPPORT ! then consider you made an enemy.",
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
          "value": ""
       },
@@ -104,9 +104,9 @@
         "required": false
       },
       "DEV_USERS": {
-         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother QUEEN JNC SUPPORT ! then keep the current ID's here at they are and add yours.",
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1314561869"
+         "value": "1665347268"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -173,16 +173,21 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/...."
+         "value": "https://www.paypal.me/PaulSonOfLars"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
          "value": "True"
-      },     
+      },
+      "AI_API_KEY": {
+      "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
+         "required": false,
+         "value": ""
+   },      
       "BAN_STICKER": {
-         "description": "ID of the sticker you want to use when banning people.Get your Sticker id using https://t.me/LCxStickerID_bot ",
-         "required": true,
-         "value": "CAACAgUAAxkBAAInK2DZy1sukgSScXyHWBbdoX5SISJUAAJRAgAC_28oVuJylYukdoK2IAQ"
+         "description": "ID of the sticker you want to use when banning people.",
+         "required": false,
+         "value": ""
       },
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
@@ -190,5 +195,5 @@
          "value": ""
       }
       
+   }
 }
-
