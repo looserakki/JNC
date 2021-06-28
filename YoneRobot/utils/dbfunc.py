@@ -1,3 +1,5 @@
+# a plugin to create controversy if possible hehe .
+
 from YoneRobot.mongo import db
 from typing import Dict, List, Union
 
@@ -5,7 +7,7 @@ from typing import Dict, List, Union
 coupledb = db.couple
 
 
-# Couple Chooser
+# Couple Chooser 
 
 async def _get_lovers(chat_id: int):
     lovers = coupledb.find_one({"chat_id": chat_id})
