@@ -57,7 +57,7 @@
         "required": false
       },
       "OWNER_USERNAME": {
-         "description": "Your username without the @" eg Kmax_01
+         "description": "Your username without the @",
          "value": ""
       },
       "SUPPORT_CHAT": {
@@ -190,5 +190,5 @@
          "value": ""
       }
       
-   }
 }
+
