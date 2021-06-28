@@ -1,18 +1,18 @@
 {
-      "name": "YoneRobot",
+      "name": "JNC",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "yone"
+         "kmax"
       ],   
-   "repository": "https://t.me/itsMeLegend",
+   "repository": "https://telegra.ph/file/379bb1c39e71f9e612c70.mp4",
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "1.0"
          },
          "plan": "heroku-postgresql"
       }
