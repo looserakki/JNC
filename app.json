@@ -101,7 +101,7 @@
       },
       "API_OPENWEATHER": {
         "description": "Get your own APP ID from https://api.openweathermap.org/data/2.5/weather",
-        "value": "",
+        "value": "553aa11072c045931fafbc5ba3d6dca2",
         "required": false
       },
       "DEV_USERS": {
