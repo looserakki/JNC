@@ -2,6 +2,8 @@ import asyncio
 import io
 import os
 import time
+import ffprobe
+import ffmpeg
 
 import lyricsgenius
 import requests
