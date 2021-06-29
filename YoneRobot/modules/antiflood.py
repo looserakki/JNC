@@ -408,7 +408,7 @@ __help__ = """
  ❍ /unignoreblue <word>*:* remove prevent auto cleaning of the command
  ❍ /listblue*:* list currently whitelisted commands
 
-*Antiflood* allows you to take action on users that send more than x messages in a row. Exceeding the set flood \
+*JNC's Advanced Antiflood* allows you to take action on users that send more than x messages in a row. Exceeding the set flood \
 will result in restricting that user.
  This will mute users if they send more than 10 messages in a row, bots are ignored.
  ❍ /flood*:* Get the current flood control setting
