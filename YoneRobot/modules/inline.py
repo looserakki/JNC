@@ -25,7 +25,7 @@ SOFTWARE.
 
 import traceback
 
-from YoneRobot import app
+from YoneRobot import telethn as app
 from YoneRobot.utils.inlinefuncs import *
 
 __MODULE__ = "Inline"
