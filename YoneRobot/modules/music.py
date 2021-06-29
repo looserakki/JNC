@@ -1,9 +1,7 @@
 import asyncio
+import base64
 import io
 import os
-import time
-import ffprobe
-import ffmpeg
 
 import lyricsgenius
 import requests
