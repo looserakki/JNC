@@ -530,7 +530,7 @@ When marked as AFK, any mentions will be replied to with a message to say you're
  ❍ /setme <text>*:* will set your info
  ❍ /me*:* will get your or another user's info.
 *Examples:* 💡
- ➩ /setme I am a wolf.
+ ➩ /setme I am a Wrath.
  ➩ /me @username(defaults to yours if no user specified)
 
 *Information others add on you:* 
@@ -543,8 +543,8 @@ When marked as AFK, any mentions will be replied to with a message to say you're
 *Overall Information about you:*
  ❍ /info*:* get information about a user. 
  
-*What is that health thingy?*
- Come and see [HP System explained](https://t.me/OnePunchUpdates/192)
+*What the F is that health thingy?*
+ Come and see [HP System explained](https://t.me/jnc_updates/3)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
