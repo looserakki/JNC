@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [👋😁](https://telegra.ph/file/e188377752fe74566c946.jpg), ɪᴍ ᴊɴᴄ  ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ. by
+ʜᴇʟʟᴏ [👋😁](https://telegra.ph/file/42b44d9a696211a92b8f5.jpg), ɪᴍ ᴊɴᴄ  ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ. by
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="✷ ᴀᴅᴅ ᴊɴᴄ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✷", url="t.me/Yone_Robot?startgroup=true"),
+            text="✷ ᴀᴅᴅ ᴊɴᴄ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✷", url="t.me/AKKI_SECURITYBOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
@@ -96,13 +96,13 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [ᴊɴᴄ 😘](https://telegra.ph/file/74ee28bc13baf42a03865.jpg ) 
+`ʜɪ.. ɪ'ᴍ` [ᴊɴᴄ 😘](https://telegra.ph/file/42b44d9a696211a92b8f5.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-yone_IMG = "https://telegra.ph/file/74ee28bc13baf42a03865.jpg"
+yone_IMG = "https://telegra.ph/file/42b44d9a696211a92b8f5.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @kmax_01 \
+ You can support the project via [Paypal](#) or by contacting @piroXpower \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -384,7 +384,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😘 I'm *JNC*
+            text=""" Hi..😘 I'm *AKKI*
                  \nHere is the [Source Code](https://telegra.ph/file/379bb1c39e71f9e612c70.mp4) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
